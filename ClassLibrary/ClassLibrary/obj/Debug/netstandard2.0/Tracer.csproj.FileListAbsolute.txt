@@ -1,0 +1,9 @@
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\obj\Debug\netstandard2.0\Tracer.csprojAssemblyReference.cache
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\obj\Debug\netstandard2.0\Tracer.AssemblyInfoInputs.cache
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\obj\Debug\netstandard2.0\Tracer.AssemblyInfo.cs
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\obj\Debug\netstandard2.0\Tracer.csproj.CoreCompileInputs.cache
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\bin\Debug\netstandard2.0\Tracer.deps.json
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\bin\Debug\netstandard2.0\Tracer.dll
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\bin\Debug\netstandard2.0\Tracer.pdb
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\obj\Debug\netstandard2.0\Tracer.dll
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\obj\Debug\netstandard2.0\Tracer.pdb

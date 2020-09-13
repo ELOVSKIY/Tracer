@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tSN/HBt14x/P9PJjEybRzGHG8PSwF2cplJS7rUydpa3XxIMJZr6RSmSrwQIEfkUpHnT2pbGEaSH0A6TnKFRuVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Helicoptera\\Desktop\\СПП\\Лаба1\\ClassLibrary\\ClassLibrary\\Tracer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Helicoptera\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Helicoptera\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

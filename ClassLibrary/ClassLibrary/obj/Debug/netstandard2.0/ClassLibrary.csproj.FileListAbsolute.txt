@@ -1,0 +1,9 @@
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\bin\Debug\netstandard2.0\ClassLibrary.deps.json
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\bin\Debug\netstandard2.0\ClassLibrary.dll
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\bin\Debug\netstandard2.0\ClassLibrary.pdb
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.AssemblyInfo.cs
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.dll
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.pdb
