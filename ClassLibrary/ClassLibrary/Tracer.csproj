@@ -6,6 +6,11 @@
 
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="5.0.0-rc.1.20451.14" />
+    <PackageReference Include="XSerializer" Version="0.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Serializer\TraceResultSerializer.cs" />
   </ItemGroup>
 
 </Project>

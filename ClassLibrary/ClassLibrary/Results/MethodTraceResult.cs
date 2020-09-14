@@ -1,22 +1,29 @@
 ﻿using System.Collections.Generic;
+using System.Security;
 
 namespace Tracer.Results
 {
     public class MethodTraceResult : IResult
     {
-        private long Duration = 0;
+        public long Duration { get; private set; }
 
-        private readonly string MethodName;
+        public string MethodName { get; }
 
-        private readonly string ClassName;
+        public string ClassName { get; }
 
-        private readonly List<MethodTraceResult> InnerMethodTraceResults;
+        public List<MethodTraceResult> InnerMethodTraceResults { get; }
 
         public MethodTraceResult(string className, string methodName)
         {
+            Duration = 0;
             ClassName = className;
             MethodName = methodName;
             InnerMethodTraceResults = new List<MethodTraceResult>();
+        }
+
+        public MethodTraceResult()
+        {
+            throw new SecurityException();
         }
 
         public long GetDuration()

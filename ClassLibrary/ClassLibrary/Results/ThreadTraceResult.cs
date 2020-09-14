@@ -1,44 +1,50 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace Tracer.Results
 {
     public class ThreadTraceResult : IResult
     {
-        private readonly List<MethodTraceResult> _methodTraceResults;
+        public List<MethodTraceResult> MethodTraceResults { get; }
 
-        private readonly long _threadId;
+        public long ThreadId { get; }
        
-        private long _duration;
+        public long Duration { get; private set; }
 
         public ThreadTraceResult(long threadId)
         {
-            _threadId = threadId;
-            _methodTraceResults = new List<MethodTraceResult>();
+            ThreadId = threadId;
+            MethodTraceResults = new List<MethodTraceResult>();
+        }
+
+        public ThreadTraceResult()
+        {
+            throw new SerializationException();
         }
 
         public void SetDuration(long duration)
         {
-            _duration = duration;
+            Duration = duration;
         }
 
         public long GetDuration()
         {
-            return _duration;
+            return Duration;
         }
 
         public long GetThreadId()
         {
-            return _threadId;
+            return ThreadId;
         }
 
         public void AddMethodTraceResult(MethodTraceResult methodTraceResult)
         {
-            _methodTraceResults.Add(methodTraceResult);
+            MethodTraceResults.Add(methodTraceResult);
         }
 
         public List<MethodTraceResult> GetMethodTraceResults()
         {
-            return _methodTraceResults;
+            return MethodTraceResults;
         }
     }
 }

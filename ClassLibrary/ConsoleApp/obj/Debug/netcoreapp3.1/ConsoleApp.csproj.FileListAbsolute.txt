@@ -28,3 +28,4 @@ C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ConsoleApp\obj\Debug\
 C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ConsoleApp\bin\Debug\netcoreapp3.1\Tracer.dll
 C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ConsoleApp\bin\Debug\netcoreapp3.1\Tracer.pdb
 C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ConsoleApp\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\ConsoleApp\bin\Debug\netcoreapp3.1\XSerializer.dll

@@ -47,6 +47,10 @@
             "System.Text.Json": {
               "target": "Package",
               "version": "[5.0.0-rc.1.20451.14, )"
+            },
+            "XSerializer": {
+              "target": "Package",
+              "version": "[0.4.2, )"
             }
           },
           "imports": [

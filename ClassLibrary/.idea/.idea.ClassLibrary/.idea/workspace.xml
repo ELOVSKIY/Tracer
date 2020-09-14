@@ -25,30 +25,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4dfbfe3-f838-4daa-84ab-4c8fe8573610" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClassLibrary.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClassLibrary/Serializer/ITraceResultSerializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClassLibrary/Serializer/JsonTraceResultSerializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClassLibrary/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/System.Text.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tracer.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tracer.Tests/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="c4dfbfe3-f838-4daa-84ab-4c8fe8573610" name="Default Changelist" comment="fix bugs &amp; new logic">
+      <change afterPath="$PROJECT_DIR$/ClassLibrary/Serializer/TraceResultSerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassLibrary/Serializer/XmlTraceResultSerializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/Results/MethodTraceResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Results/MethodTraceResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/Results/ThreadTraceResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Results/ThreadTraceResult.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/Results/TraceResult .cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Results/TraceResult .cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/Serializer/JsonTraceResultSerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Serializer/JsonTraceResultSerializer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracer.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracers/MethodTracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracers/MethodTracer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.pdb" afterDir="false" />
@@ -58,9 +45,9 @@
       <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Tracer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Tracer.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Tracer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Tracer.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
@@ -68,7 +55,6 @@
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/ConsoleApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/ConsoleApp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/ConsoleApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/ConsoleApp.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.FileListAbsolute.txt" afterDir="false" />
@@ -77,13 +63,12 @@
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/Tracers/MethodTracerTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/Tracers/MethodTracerTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Tracer.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Tracer.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Tracer.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Tracer.Tests.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,18 +80,24 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4065B38D-0F9F-44D9-8F53-F4C9102AF396/3D5/Dictionary.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6DADD22E-0197-42CE-80AA-EFEF99855BE0/3d/5b7c4c22/StreamWriter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClassLibrary/Serializer/TraceResultSerializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/525CFFEC-000C-48BE-8596-AED533D6F868/33/d07b8da0/SerializeTool.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ClassLibrary/Serializer/TraceResultSerializer.cs" />
-        <option value="$PROJECT_DIR$/ClassLibrary/Serializer/ITraceResultSerializer.cs" />
-        <option value="$PROJECT_DIR$/ClassLibrary/Serializer/JsonTraceResultSerializer.cs" />
-        <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Tracers/MethodTracer.cs" />
-        <option value="$PROJECT_DIR$/ClassLibrary/Results/TraceResult .cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Results/TraceResult .cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Serializer/TraceResultSerializer.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Results/ThreadTraceResult.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Results/MethodTraceResult.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Serializer/ITraceResultSerializer.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Serializer/XmlTraceResultSerializer.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Serializer/JsonTraceResultSerializer.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
       </list>
     </option>
   </component>
@@ -154,8 +145,16 @@
       <option name="presentableId" value="Default" />
       <updated>1600085063065</updated>
       <workItem from="1600085069137" duration="65000" />
-      <workItem from="1600102417538" duration="2802000" />
+      <workItem from="1600102417538" duration="8234000" />
     </task>
+    <task id="LOCAL-00001" summary="fix bugs &amp; new logic">
+      <created>1600105255787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600105255788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,24 +176,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="fix bugs &amp; new logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bugs &amp; new logic" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="529" key="GridCell.Tab.0.bottom" timestamp="1600105154309">
+    <state width="1398" height="457" key="GridCell.Tab.0.bottom" timestamp="1600110610129">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600105154309" />
-    <state width="1398" height="529" key="GridCell.Tab.0.center" timestamp="1600105154309">
+    <state width="1398" height="457" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600110610129" />
+    <state width="1398" height="457" key="GridCell.Tab.0.center" timestamp="1600110610129">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1600105154309" />
-    <state width="1398" height="529" key="GridCell.Tab.0.left" timestamp="1600105154309">
+    <state width="1398" height="457" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1600110610129" />
+    <state width="1398" height="457" key="GridCell.Tab.0.left" timestamp="1600110610129">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1600105154309" />
-    <state width="1398" height="529" key="GridCell.Tab.0.right" timestamp="1600105154309">
+    <state width="1398" height="457" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1600110610129" />
+    <state width="1398" height="457" key="GridCell.Tab.0.right" timestamp="1600110610129">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600105154309" />
+    <state width="1398" height="457" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600110610129" />
     <state width="1398" height="529" key="GridCell.Tab.1.bottom" timestamp="1600105154310">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -259,10 +260,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1398" height="529" key="GridCell.Tab.4.right/0.0.1440.860@0.0.1440.860" timestamp="1600105154311" />
-    <state x="552" y="132" key="RiderGenerateDialog" timestamp="1600102662932">
+    <state x="552" y="132" key="RiderGenerateDialog" timestamp="1600108839844">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="552" y="132" key="RiderGenerateDialog/0.0.1440.860@0.0.1440.860" timestamp="1600102662932" />
+    <state x="552" y="132" key="RiderGenerateDialog/0.0.1440.860@0.0.1440.860" timestamp="1600108839844" />
     <state x="222" y="75" key="SettingsEditor" timestamp="1600085133432">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -271,9 +272,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="93" y="93" width="1253" height="673" key="VCS.FileHistoryDialog/0.0.1440.860@0.0.1440.860" timestamp="1600104221372" />
-    <state x="386" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1600103981948">
+    <state x="387" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1600109308674">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="386" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600103981948" />
+    <state x="387" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600109308674" />
   </component>
 </project>

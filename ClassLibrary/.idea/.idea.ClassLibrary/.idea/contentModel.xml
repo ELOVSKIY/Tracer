@@ -30,6 +30,7 @@
         <e p="Serializer" t="Include">
           <e p="ITraceResultSerializer.cs" t="Include" />
           <e p="JsonTraceResultSerializer.cs" t="Include" />
+          <e p="XmlTraceResultSerializer.cs" t="Include" />
         </e>
         <e p="Tracer.csproj" t="IncludeRecursive" />
         <e p="Tracers" t="Include">
