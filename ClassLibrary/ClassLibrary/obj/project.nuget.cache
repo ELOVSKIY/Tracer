@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "tSN/HBt14x/P9PJjEybRzGHG8PSwF2cplJS7rUydpa3XxIMJZr6RSmSrwQIEfkUpHnT2pbGEaSH0A6TnKFRuVg==",
+  "dgSpecHash": "uNPcxnMOPQAfotpoMYMCfPYwt2pCxHkmpsikY6prx5JnEJMzMwBFtt0cN/w3S1gKjK30/rxHx4e9QfKL0BAZ2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Helicoptera\\Desktop\\СПП\\Лаба1\\ClassLibrary\\ClassLibrary\\Tracer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Helicoptera\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0-rc.1.20451.14\\microsoft.bcl.asyncinterfaces.5.0.0-rc.1.20451.14.nupkg.sha512",
     "C:\\Users\\Helicoptera\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Helicoptera\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Helicoptera\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Helicoptera\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Helicoptera\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Helicoptera\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Helicoptera\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0-rc.1.20451.14\\system.runtime.compilerservices.unsafe.5.0.0-rc.1.20451.14.nupkg.sha512",
+    "C:\\Users\\Helicoptera\\.nuget\\packages\\system.text.encodings.web\\5.0.0-rc.1.20451.14\\system.text.encodings.web.5.0.0-rc.1.20451.14.nupkg.sha512",
+    "C:\\Users\\Helicoptera\\.nuget\\packages\\system.text.json\\5.0.0-rc.1.20451.14\\system.text.json.5.0.0-rc.1.20451.14.nupkg.sha512",
+    "C:\\Users\\Helicoptera\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

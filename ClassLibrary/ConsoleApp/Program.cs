@@ -1,4 +1,6 @@
-﻿using Tracer.Tracers;
+﻿using System;
+using Tracer.Serializer;
+using Tracer.Tracers;
 
 namespace ConsoleApp
 {
@@ -8,6 +10,10 @@ namespace ConsoleApp
         {
             SimpleTracer tracer = new SimpleTracer();
             Method(tracer);
+            var traceResult = tracer.GetTraceResult();
+            var serializer = new JsonTraceResultSerializer();
+            var json = serializer.Serialize(traceResult);
+            Console.Write(json);
         }
 
         static void Method(SimpleTracer tracer)

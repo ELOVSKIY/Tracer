@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JhosOFiEZJ+uZmP3pmibcw31udzaPeKli94UOF9klPSjFHTaWPe+OXciTskvcmJNzltbF3TftV0r+e4YxvPnjw==",
+  "dgSpecHash": "Tt+50EcUiR4UY9/+M7fb5fY0UpZXVwxsrP9CuowJWuhKVn8Vjup/zLsyouQ7bRv97EgrFMKxEqEb36UBdDKzqQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Helicoptera\\Desktop\\СПП\\Лаба1\\ClassLibrary\\Tracer.Tests\\Tracer.Tests.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\Helicoptera\\.nuget\\packages\\system.runtime.serialization.primitives\\4.1.1\\system.runtime.serialization.primitives.4.1.1.nupkg.sha512",
     "C:\\Users\\Helicoptera\\.nuget\\packages\\system.text.encoding\\4.0.11\\system.text.encoding.4.0.11.nupkg.sha512",
     "C:\\Users\\Helicoptera\\.nuget\\packages\\system.text.encoding.extensions\\4.0.11\\system.text.encoding.extensions.4.0.11.nupkg.sha512",
+    "C:\\Users\\Helicoptera\\.nuget\\packages\\system.text.json\\5.0.0-rc.1.20451.14\\system.text.json.5.0.0-rc.1.20451.14.nupkg.sha512",
     "C:\\Users\\Helicoptera\\.nuget\\packages\\system.text.regularexpressions\\4.1.0\\system.text.regularexpressions.4.1.0.nupkg.sha512",
     "C:\\Users\\Helicoptera\\.nuget\\packages\\system.threading\\4.0.11\\system.threading.4.0.11.nupkg.sha512",
     "C:\\Users\\Helicoptera\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",

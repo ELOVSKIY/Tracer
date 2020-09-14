@@ -12,7 +12,7 @@ namespace Tracer.Tracers
         private MethodTraceResult _methodTraceResult;
 
         private long _startTime = 0;
-        private bool _isActive = false;
+        private bool _active = false;
 
         public MethodTracer()
         {
@@ -21,9 +21,9 @@ namespace Tracer.Tracers
 
         public void StartTrace(string className, string methodName)
         {
-            if (!_isActive)
+            if (!_active)
             {
-                _isActive = true;
+                _active = true;
                 _startTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
                 _methodTraceResult = new MethodTraceResult(className, methodName);
             }
@@ -45,9 +45,9 @@ namespace Tracer.Tracers
 
         public void StopTrace()
         {
-            if (_isActive)
+            if (_active)
             {
-                if (_innerMethodTracers.Count == 0)
+                if (_innerMethodTracers.Count != 0)
                 {
                     var innerMethodTracer = _innerMethodTracers.Pop();
                     innerMethodTracer.StopTrace();
@@ -59,13 +59,18 @@ namespace Tracer.Tracers
                     var endTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
                     var duration = endTime - _startTime;
                     _methodTraceResult.SetDuration(duration);
-                    _isActive = false;
+                    _active = false;
                 }
             }
             else
             {
                 throw new InvalidOperationException();
             }
+        }
+
+        public bool IsActive()
+        {
+            return _active;
         }
 
         public MethodTraceResult GetTraceResult()

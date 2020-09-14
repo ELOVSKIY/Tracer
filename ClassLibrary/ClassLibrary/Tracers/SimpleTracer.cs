@@ -8,25 +8,28 @@ namespace Tracer.Tracers
     public class SimpleTracer : ITracer
     {
 
-        private readonly IDictionary<long, ThreadTracer> ThreadTracers;
+        private TraceResult _traceResult;
+        
+        private readonly IDictionary<long, ThreadTracer> _threadTracers;
 
         public SimpleTracer()
         {
-            ThreadTracers = new Dictionary<long, ThreadTracer>();
+            _traceResult = new TraceResult();
+            _threadTracers = new Dictionary<long, ThreadTracer>();
         }
 
         public void StartTrace()
         {
             var threadId = GetCurrentThreadId();
-            if (ThreadTracers.ContainsKey(threadId))
+            if (_threadTracers.ContainsKey(threadId))
             {
-                var threadTracer = ThreadTracers[threadId];
+                var threadTracer = _threadTracers[threadId];
                 threadTracer.StartTrace();
             }
             else
             {
                 var threadTracer = new ThreadTracer();
-                ThreadTracers.Add(threadId, threadTracer);
+                _threadTracers.Add(threadId, threadTracer);
                 threadTracer.StartTrace();
             }
         }
@@ -34,9 +37,9 @@ namespace Tracer.Tracers
         public void StopTrace()
         {
             var threadId = GetCurrentThreadId();
-            if (ThreadTracers.ContainsKey(threadId))
+            if (_threadTracers.ContainsKey(threadId))
             {
-                var threadTracer = ThreadTracers[threadId];
+                var threadTracer = _threadTracers[threadId];
                 threadTracer.StopTrace();
             }
             else
@@ -47,7 +50,13 @@ namespace Tracer.Tracers
 
         public TraceResult GetTraceResult()
         {
-            throw new NotImplementedException();
+            foreach (var threadTracerPair in _threadTracers)
+            {
+                var threadTracer = threadTracerPair.Value;
+                var threadTraceResult = threadTracer.GetTraceResult();
+                _traceResult.AddThreadTraceResult(threadTraceResult);
+            }
+            return _traceResult;
         }
 
         private long GetCurrentThreadId()
