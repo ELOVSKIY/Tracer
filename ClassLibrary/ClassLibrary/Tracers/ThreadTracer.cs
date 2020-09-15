@@ -7,13 +7,13 @@ namespace Tracer.Tracers
 {
     internal class ThreadTracer
     {
-        private readonly ThreadTraceResult _threadTraceResult;
+        public ThreadTraceResult ThreadTraceResult { get; }
         private MethodTracer _currentMethodTracer;
 
         internal ThreadTracer()
         {
             var threadId = Thread.CurrentThread.ManagedThreadId;
-            _threadTraceResult = new ThreadTraceResult(threadId);
+            ThreadTraceResult = new ThreadTraceResult(threadId);
         }
 
         public void StartTrace()
@@ -38,7 +38,7 @@ namespace Tracer.Tracers
                 if (!_currentMethodTracer.IsActive())
                 {
                     var methodTraceResult = _currentMethodTracer.GetTraceResult();
-                    _threadTraceResult.AddMethodTraceResult(methodTraceResult);
+                    ThreadTraceResult.AddMethodTraceResult(methodTraceResult);
                     _currentMethodTracer = null;
                 }
             }
@@ -46,11 +46,6 @@ namespace Tracer.Tracers
             {
                 throw new InvalidOperationException();
             }
-        }
-
-        public ThreadTraceResult GetTraceResult()
-        {
-            return _threadTraceResult;
         }
     }
 }

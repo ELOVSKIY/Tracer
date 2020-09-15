@@ -9,10 +9,21 @@ namespace Tracer.Results
         [JsonProperty("id")]
         [XmlElement("id")]
         public long ThreadId { get; }
-        
+
         [JsonProperty("duration")]
         [XmlElement("duration")]
-        public long Duration { get; set; }
+        public long Duration
+        {
+            get
+            {
+                long duration = 0;
+                foreach (var methodTraceResult in MethodTraceResults)
+                {
+                    duration += methodTraceResult.Duration;
+                }
+                return duration;
+            }
+        }
         
         [JsonProperty("methods")]
         [XmlElement("methods")] 

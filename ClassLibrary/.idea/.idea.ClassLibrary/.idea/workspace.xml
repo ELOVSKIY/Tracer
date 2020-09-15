@@ -25,29 +25,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4dfbfe3-f838-4daa-84ab-4c8fe8573610" name="Default Changelist" comment="fix bugs &amp; new logic">
-      <change afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/XSerializer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="c4dfbfe3-f838-4daa-84ab-4c8fe8573610" name="Default Changelist" comment="add annotations">
+      <change afterPath="$PROJECT_DIR$/ClassLibrary/result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/Results/MethodTraceResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Results/MethodTraceResult.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/Results/ThreadTraceResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Results/ThreadTraceResult.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/Results/TraceResult .cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Results/TraceResult .cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/Serializer/XmlTraceResultSerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Serializer/XmlTraceResultSerializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracers/MethodTracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracers/MethodTracer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +50,13 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53D023D7-1051-415A-9681-84DA5CF05FF4/e2/0dca2869/XmlSerializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53D023D7-1051-415A-9681-84DA5CF05FF4/eb/e4623044/DateTimeHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClassLibrary/Serializer/TraceResultSerializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClassLibrary/Results/IResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53D023D7-1051-415A-9681-84DA5CF05FF4/89/319c3d0d/CustomSerializer`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/525CFFEC-000C-48BE-8596-AED533D6F868/33/d07b8da0/SerializeTool.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" />
-        <option value="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Serializer/TraceResultSerializer.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Serializer/ITraceResultSerializer.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Serializer/JsonTraceResultSerializer.cs" />
@@ -79,9 +64,11 @@
         <option value="$PROJECT_DIR$/ClassLibrary/Serializer/XmlTraceResultSerializer.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Tracers/MethodTracer.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
-        <option value="$PROJECT_DIR$/ClassLibrary/Results/TraceResult .cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Results/MethodTraceResult.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/result.json" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Results/TraceResult .cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Results/ThreadTraceResult.cs" />
       </list>
     </option>
@@ -131,7 +118,8 @@
       <updated>1600085063065</updated>
       <workItem from="1600085069137" duration="65000" />
       <workItem from="1600102417538" duration="8234000" />
-      <workItem from="1600185008613" duration="3358000" />
+      <workItem from="1600185008613" duration="4442000" />
+      <workItem from="1600189616016" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="fix bugs &amp; new logic">
       <created>1600105255787</created>
@@ -140,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600105255788</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add annotations">
+      <created>1600188485049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600188485049</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,25 +158,26 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="fix bugs &amp; new logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs &amp; new logic" />
+    <MESSAGE value="add annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="add annotations" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="457" key="GridCell.Tab.0.bottom" timestamp="1600188328490">
+    <state width="1398" height="457" key="GridCell.Tab.0.bottom" timestamp="1600190364831">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="457" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600188328490" />
-    <state width="1398" height="457" key="GridCell.Tab.0.center" timestamp="1600188328490">
+    <state width="1398" height="457" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600190364831" />
+    <state width="1398" height="457" key="GridCell.Tab.0.center" timestamp="1600190364831">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="457" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1600188328490" />
-    <state width="1398" height="457" key="GridCell.Tab.0.left" timestamp="1600188328490">
+    <state width="1398" height="457" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1600190364831" />
+    <state width="1398" height="457" key="GridCell.Tab.0.left" timestamp="1600190364831">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="457" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1600188328490" />
-    <state width="1398" height="457" key="GridCell.Tab.0.right" timestamp="1600188328490">
+    <state width="1398" height="457" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1600190364831" />
+    <state width="1398" height="457" key="GridCell.Tab.0.right" timestamp="1600190364831">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="457" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600188328490" />
+    <state width="1398" height="457" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600190364831" />
     <state width="1398" height="529" key="GridCell.Tab.1.bottom" timestamp="1600105154310">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -262,9 +258,13 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="93" y="93" width="1253" height="673" key="dock-window-1/0.0.1440.860@0.0.1440.860" timestamp="1600187077633" />
-    <state x="399" y="197" width="672" height="678" key="search.everywhere.popup" timestamp="1600188041129">
+    <state x="379" y="197" key="run.anything.popup" timestamp="1600188416481">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="399" y="197" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600188041129" />
+    <state x="379" y="197" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1600188416481" />
+    <state x="403" y="201" width="672" height="678" key="search.everywhere.popup" timestamp="1600190099538">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="403" y="201" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600190099538" />
   </component>
 </project>
