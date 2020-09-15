@@ -1,15 +1,22 @@
 ﻿using System.Collections.Generic;
-using System.Runtime.Serialization;
+using System.Xml.Serialization;
+using XSerializer;
 
 namespace Tracer.Results
 {
-    public class ThreadTraceResult : IResult
+    public class ThreadTraceResult
     {
-        public List<MethodTraceResult> MethodTraceResults { get; }
-
+        [JsonProperty("id")]
+        [XmlElement("id")]
         public long ThreadId { get; }
-       
-        public long Duration { get; private set; }
+        
+        [JsonProperty("duration")]
+        [XmlElement("duration")]
+        public long Duration { get; set; }
+        
+        [JsonProperty("methods")]
+        [XmlElement("methods")] 
+        public List<MethodTraceResult> MethodTraceResults { get; }
 
         public ThreadTraceResult(long threadId)
         {
@@ -17,34 +24,9 @@ namespace Tracer.Results
             MethodTraceResults = new List<MethodTraceResult>();
         }
 
-        public ThreadTraceResult()
-        {
-            throw new SerializationException();
-        }
-
-        public void SetDuration(long duration)
-        {
-            Duration = duration;
-        }
-
-        public long GetDuration()
-        {
-            return Duration;
-        }
-
-        public long GetThreadId()
-        {
-            return ThreadId;
-        }
-
         public void AddMethodTraceResult(MethodTraceResult methodTraceResult)
         {
             MethodTraceResults.Add(methodTraceResult);
-        }
-
-        public List<MethodTraceResult> GetMethodTraceResults()
-        {
-            return MethodTraceResults;
         }
     }
 }

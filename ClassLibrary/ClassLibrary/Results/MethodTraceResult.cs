@@ -1,16 +1,25 @@
 ﻿using System.Collections.Generic;
-using System.Security;
+using System.Xml.Serialization;
+using XSerializer;
 
 namespace Tracer.Results
 {
-    public class MethodTraceResult : IResult
+    public class MethodTraceResult
     {
-        public long Duration { get; private set; }
+        [JsonProperty("duration")]
+        [XmlElement("duration")]
+        public long Duration { get; set; }
 
+        [JsonProperty("name")]
+        [XmlElement("name")]
         public string MethodName { get; }
 
+        [JsonProperty("class")]
+        [XmlElement("class")]
         public string ClassName { get; }
 
+        [JsonProperty("methods")]
+        [XmlElement("methods")]
         public List<MethodTraceResult> InnerMethodTraceResults { get; }
 
         public MethodTraceResult(string className, string methodName)
@@ -19,31 +28,6 @@ namespace Tracer.Results
             ClassName = className;
             MethodName = methodName;
             InnerMethodTraceResults = new List<MethodTraceResult>();
-        }
-
-        public MethodTraceResult()
-        {
-            throw new SecurityException();
-        }
-
-        public long GetDuration()
-        {
-            return Duration;
-        }
-
-        public string GetMethodName()
-        {
-            return MethodName;
-        }
-
-        public string GetClassName()
-        {
-            return ClassName;
-        }
-
-        public void SetDuration(long duration)
-        {
-            Duration = duration;
         }
 
         public void AddInnerMethodTraceResult(MethodTraceResult innerMethodTraceResult)

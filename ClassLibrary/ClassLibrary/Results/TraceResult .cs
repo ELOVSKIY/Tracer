@@ -1,11 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Xml.Serialization;
+using XSerializer;
 
 namespace Tracer.Results
 {
     public class TraceResult
     {
-
+        [JsonProperty("threads")]
+        [XmlElement("threads")]
         public List<ThreadTraceResult> ThreadTraceResults { get; }
 
         public TraceResult()

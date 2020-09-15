@@ -21,6 +21,7 @@
             </e>
           </e>
         </e>
+        <e p="result.json" t="Include" />
         <e p="Results" t="Include">
           <e p="IResult.cs" t="Include" />
           <e p="MethodTraceResult.cs" t="Include" />

@@ -58,7 +58,7 @@ namespace Tracer.Tracers
                 {
                     var endTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
                     var duration = endTime - _startTime;
-                    _methodTraceResult.SetDuration(duration);
+                    _methodTraceResult.Duration = duration;
                     _active = false;
                 }
             }

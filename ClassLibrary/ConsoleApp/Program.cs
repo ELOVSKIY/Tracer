@@ -14,7 +14,7 @@ namespace ConsoleApp
             var traceResult = tracer.GetTraceResult();
             var t = traceResult.ThreadTraceResults;
             TextWriter textWriter = Console.Out;
-            var serializer = new XmlTraceResultSerializer();
+            var serializer = new JsonTraceResultSerializer();
             Console.Write(serializer.Serialize(traceResult));
         }
 

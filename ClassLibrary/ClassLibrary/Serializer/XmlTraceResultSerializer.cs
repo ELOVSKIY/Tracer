@@ -1,4 +1,5 @@
 ﻿using Tracer.Results;
+using XSerializer;
 
 
 namespace Tracer.Serializer
@@ -7,7 +8,7 @@ namespace Tracer.Serializer
     {
         public string Serialize(TraceResult traceResult)
         {
-            var serializer = XSerializer.XmlSerializer.Create(traceResult.GetType());
+            var serializer = XmlSerializer.Create(traceResult.GetType());
             return serializer.Serialize(traceResult);
         }
     }
