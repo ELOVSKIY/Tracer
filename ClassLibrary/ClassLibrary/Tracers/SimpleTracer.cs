@@ -7,8 +7,9 @@ namespace Tracer.Tracers
 {
     public class SimpleTracer : ITracer
     {
+        private static readonly object Lock = new object();
 
-        public TraceResult TraceResult { get; }
+        private TraceResult TraceResult { get; }
 
         private Dictionary<long, ThreadTracer> ThreadTracers { get; }
 
@@ -20,31 +21,37 @@ namespace Tracer.Tracers
 
         public void StartTrace()
         {
-            var threadId = GetCurrentThreadId();
-            if (ThreadTracers.ContainsKey(threadId))
+            lock (Lock)
             {
-                var threadTracer = ThreadTracers[threadId];
-                threadTracer.StartTrace();
-            }
-            else
-            {
-                var threadTracer = new ThreadTracer();
-                ThreadTracers.Add(threadId, threadTracer);
-                threadTracer.StartTrace();
+                var threadId = GetCurrentThreadId();
+                if (ThreadTracers.ContainsKey(threadId))
+                {
+                    var threadTracer = ThreadTracers[threadId];
+                    threadTracer.StartTrace();
+                }
+                else
+                {
+                    var threadTracer = new ThreadTracer();
+                    ThreadTracers.Add(threadId, threadTracer);
+                    threadTracer.StartTrace();
+                }
             }
         }
 
         public void StopTrace()
         {
-            var threadId = GetCurrentThreadId();
-            if (ThreadTracers.ContainsKey(threadId))
+            lock (Lock)
             {
-                var threadTracer = ThreadTracers[threadId];
-                threadTracer.StopTrace();
-            }
-            else
-            {
-                throw new InvalidOperationException();
+                var threadId = GetCurrentThreadId();
+                if (ThreadTracers.ContainsKey(threadId))
+                {
+                    var threadTracer = ThreadTracers[threadId];
+                    threadTracer.StopTrace();
+                }
+                else
+                {
+                    throw new InvalidOperationException();
+                }
             }
         }
 
@@ -56,6 +63,7 @@ namespace Tracer.Tracers
                 var threadTraceResult = threadTracer.ThreadTraceResult;
                 TraceResult.AddThreadTraceResult(threadTraceResult);
             }
+
             return TraceResult;
         }
 

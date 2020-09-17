@@ -5,12 +5,12 @@ using Tracer.Results;
 
 namespace Tracer.Tracers
 {
-    internal class ThreadTracer
+    public class ThreadTracer
     {
         public ThreadTraceResult ThreadTraceResult { get; }
         private MethodTracer _currentMethodTracer;
 
-        internal ThreadTracer()
+        public ThreadTracer()
         {
             var threadId = Thread.CurrentThread.ManagedThreadId;
             ThreadTraceResult = new ThreadTraceResult(threadId);

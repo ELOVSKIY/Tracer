@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Threading;
 using Tracer.Serializer;
 using Tracer.Tracers;
 
@@ -7,25 +8,46 @@ namespace ConsoleApp
 {
     class Program
     {
+        private static SimpleClass clazz;
+        private static ITracer tracer;
         static void Main(string[] args)
         {
-            SimpleTracer tracer = new SimpleTracer();
-            Method(tracer);
-            var traceResult = tracer.GetTraceResult();
-            var t = traceResult.ThreadTraceResults;
-            TextWriter textWriter = Console.Out;
-            var serializer = new JsonTraceResultSerializer();
-            Console.Write(serializer.Serialize(traceResult));
+            tracer = new SimpleTracer();
+            clazz = new SimpleClass(tracer);
+            Thread thread = new Thread(new ThreadStart(Start));
+            thread.Start();
+            tracer.StartTrace();
+            OtherMethod();
+            tracer.StopTrace();
+            var res = tracer.GetTraceResult();
+            var ser = new XmlTraceResultSerializer();
+            var str = ser.Serialize(res);
+            Console.WriteLine(str);
         }
 
-        static void Method(SimpleTracer tracer)
+        static void Start()
         {
             tracer.StartTrace();
-            OtherMethod(tracer);
+            for (int i = 0; i < 100; i++)
+            {
+                i++;
+            }
+            clazz.method();
             tracer.StopTrace();
         }
 
-        static void OtherMethod(SimpleTracer tracer)
+        static void Method()
+        {
+            tracer.StartTrace();
+            for (int i = 0; i < 100; i++)
+            {
+                i++;
+            }
+            OtherMethod();
+            tracer.StopTrace();
+        }
+
+        static void OtherMethod()
         {
             tracer.StartTrace();
             tracer.StopTrace();

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TraceResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <threads>
+        <id>1</id>
+        <methods>
+            <duration>6</duration>
+            <name>Main</name>
+            <class>ConsoleApp.Program</class>
+            <methods>
+                <duration>1</duration>
+                <name>OtherMethod</name>
+                <class>ConsoleApp.Program</class>
+            </methods>
+        </methods>
+    </threads>
+    <threads>
+        <id>4</id>
+        <methods>
+            <duration>2</duration>
+            <name>Start</name>
+            <class>ConsoleApp.Program</class>
+            <methods>
+                <duration>2</duration>
+                <name>method</name>
+                <class>ConsoleApp.SimpleClass</class>
+            </methods>
+        </methods>
+    </threads>
+</TraceResult>

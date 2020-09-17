@@ -22,6 +22,7 @@
           </e>
         </e>
         <e p="result.json" t="Include" />
+        <e p="result.xml" t="Include" />
         <e p="Results" t="Include">
           <e p="IResult.cs" t="Include" />
           <e p="MethodTraceResult.cs" t="Include" />
@@ -53,6 +54,7 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="SimpleClass.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Tracer.Tests" t="IncludeRecursive">
@@ -67,6 +69,8 @@
         <e p="Tracer.Tests.csproj" t="IncludeRecursive" />
         <e p="Tracers" t="Include">
           <e p="MethodTracerTest.cs" t="Include" />
+          <e p="SimpleTracerTest.cs" t="Include" />
+          <e p="ThreadTracerTest.cs" t="Include" />
         </e>
       </e>
     </e>

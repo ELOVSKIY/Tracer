@@ -25,15 +25,49 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4dfbfe3-f838-4daa-84ab-4c8fe8573610" name="Default Changelist" comment="add annotations">
-      <change afterPath="$PROJECT_DIR$/ClassLibrary/result.json" afterDir="false" />
+    <list default="true" id="c4dfbfe3-f838-4daa-84ab-4c8fe8573610" name="Default Changelist" comment="complete sdk">
+      <change afterPath="$PROJECT_DIR$/ClassLibrary/result.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp/SimpleClass.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracer.Tests/Tracers/SimpleTracerTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracer.Tests/Tracers/ThreadTracerTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/Results/ThreadTraceResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Results/ThreadTraceResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/Results/TraceResult .cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Results/TraceResult .cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/Tracer.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/Tracer.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/Tracers/MethodTracerTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/Tracers/MethodTracerTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.Tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Tracer.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Tracer.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,16 +94,20 @@
         <option value="$PROJECT_DIR$/ClassLibrary/Serializer/TraceResultSerializer.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Serializer/ITraceResultSerializer.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Serializer/JsonTraceResultSerializer.cs" />
-        <option value="$PROJECT_DIR$/ClassLibrary/result.xml" />
         <option value="$PROJECT_DIR$/ClassLibrary/Serializer/XmlTraceResultSerializer.cs" />
-        <option value="$PROJECT_DIR$/ClassLibrary/Tracers/MethodTracer.cs" />
-        <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Results/MethodTraceResult.cs" />
-        <option value="$PROJECT_DIR$/ClassLibrary/result.json" />
-        <option value="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" />
-        <option value="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Results/TraceResult .cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Results/ThreadTraceResult.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp/SimpleClass.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/result.json" />
+        <option value="$PROJECT_DIR$/ClassLibrary/result.xml" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Tracers/MethodTracer.cs" />
+        <option value="$PROJECT_DIR$/Tracer.Tests/Tracers/MethodTracerTest.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" />
+        <option value="$PROJECT_DIR$/Tracer.Tests/Tracers/ThreadTracerTest.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" />
+        <option value="$PROJECT_DIR$/Tracer.Tests/Tracers/SimpleTracerTest.cs" />
       </list>
     </option>
   </component>
@@ -84,11 +122,17 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29992685" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.ConsoleApp">
     <configuration name="ConsoleApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -119,7 +163,9 @@
       <workItem from="1600085069137" duration="65000" />
       <workItem from="1600102417538" duration="8234000" />
       <workItem from="1600185008613" duration="4442000" />
-      <workItem from="1600189616016" duration="506000" />
+      <workItem from="1600189616016" duration="3335000" />
+      <workItem from="1600269270490" duration="2384000" />
+      <workItem from="1600350042104" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="fix bugs &amp; new logic">
       <created>1600105255787</created>
@@ -135,11 +181,62 @@
       <option name="project" value="LOCAL" />
       <updated>1600188485049</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="complete sdk">
+      <created>1600190436496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600190436496</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="269" />
+    <coverage-tree-state>
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 51% 139/285" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 51% 139/285" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tracer.Tests 100% 0/43" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 51% 139/285" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tracer.Tests 100% 0/43" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tracer.Tests.Tracers 100% 0/43" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 51% 139/285" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tracer 55% 85/188" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 51% 139/285" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tracer 55% 85/188" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tracer 55% 85/188" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 51% 139/285" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tracer 55% 85/188" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tracer 55% 85/188" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Tracers 59% 56/136" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
+      <select />
+    </coverage-tree-state>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -159,25 +256,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="fix bugs &amp; new logic" />
     <MESSAGE value="add annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add annotations" />
+    <MESSAGE value="complete sdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete sdk" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="457" key="GridCell.Tab.0.bottom" timestamp="1600190364831">
+    <state width="1398" height="457" key="GridCell.Tab.0.bottom" timestamp="1600273405175">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="457" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600190364831" />
-    <state width="1398" height="457" key="GridCell.Tab.0.center" timestamp="1600190364831">
+    <state width="1398" height="457" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600273405175" />
+    <state width="1398" height="457" key="GridCell.Tab.0.center" timestamp="1600273405175">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="457" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1600190364831" />
-    <state width="1398" height="457" key="GridCell.Tab.0.left" timestamp="1600190364831">
+    <state width="1398" height="457" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1600273405175" />
+    <state width="1398" height="457" key="GridCell.Tab.0.left" timestamp="1600273405175">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="457" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1600190364831" />
-    <state width="1398" height="457" key="GridCell.Tab.0.right" timestamp="1600190364831">
+    <state width="1398" height="457" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1600273405175" />
+    <state width="1398" height="457" key="GridCell.Tab.0.right" timestamp="1600273405175">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="457" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600190364831" />
+    <state width="1398" height="457" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600273405175" />
     <state width="1398" height="529" key="GridCell.Tab.1.bottom" timestamp="1600105154310">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -242,10 +340,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1398" height="529" key="GridCell.Tab.4.right/0.0.1440.860@0.0.1440.860" timestamp="1600105154311" />
-    <state x="552" y="132" key="RiderGenerateDialog" timestamp="1600108839844">
+    <state x="552" y="132" key="RiderGenerateDialog" timestamp="1600269303187">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="552" y="132" key="RiderGenerateDialog/0.0.1440.860@0.0.1440.860" timestamp="1600108839844" />
+    <state x="552" y="132" key="RiderGenerateDialog/0.0.1440.860@0.0.1440.860" timestamp="1600269303187" />
     <state x="222" y="75" key="SettingsEditor" timestamp="1600188010301">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -262,9 +360,28 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="379" y="197" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1600188416481" />
-    <state x="403" y="201" width="672" height="678" key="search.everywhere.popup" timestamp="1600190099538">
+    <state x="407" y="205" width="672" height="678" key="search.everywhere.popup" timestamp="1600350473872">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="403" y="201" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600190099538" />
+    <state x="407" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600350473872" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Tracer.Tests/Tracers/SimpleTracerTest.cs</url>
+          <line>29</line>
+          <properties documentPath="C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\Tracer.Tests\Tracers\SimpleTracerTest.cs" initialLine="29">
+            <startOffsets>
+              <option value="682" />
+            </startOffsets>
+            <endOffsets>
+              <option value="731" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

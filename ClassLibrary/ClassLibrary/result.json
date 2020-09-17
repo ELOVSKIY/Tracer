@@ -2,17 +2,36 @@
   "threads": [
     {
       "id": 1,
-      "duration": 5,
+      "duration": 7,
       "methods": [
         {
-          "duration": 5,
-          "name": "Method",
+          "duration": 7,
+          "name": "Main",
           "class": "ConsoleApp.Program",
           "methods": [
             {
-              "duration": 0,
+              "duration": 1,
               "name": "OtherMethod",
               "class": "ConsoleApp.Program",
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "duration": 1,
+      "methods": [
+        {
+          "duration": 1,
+          "name": "Start",
+          "class": "ConsoleApp.Program",
+          "methods": [
+            {
+              "duration": 1,
+              "name": "method",
+              "class": "ConsoleApp.SimpleClass",
               "methods": []
             }
           ]

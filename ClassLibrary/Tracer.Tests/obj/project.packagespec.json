@@ -35,6 +35,10 @@
           "target": "Package",
           "version": "[16.5.0, )"
         },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.14.5, )"
+        },
         "coverlet.collector": {
           "target": "Package",
           "version": "[1.2.0, )"

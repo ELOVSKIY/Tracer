@@ -96,3 +96,7 @@ C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\Tracer.Tests\obj\Debu
 C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\Tracer.Tests\obj\Debug\netcoreapp3.1\Tracer.Tests.dll
 C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\Tracer.Tests\obj\Debug\netcoreapp3.1\Tracer.Tests.pdb
 C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\Tracer.Tests\obj\Debug\netcoreapp3.1\Tracer.Tests.genruntimeconfig.cache
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\Tracer.Tests\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\Tracer.Tests\bin\Debug\netcoreapp3.1\XSerializer.dll
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\Tracer.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\Tracer.Tests\bin\Debug\netcoreapp3.1\Moq.dll
