@@ -3,11 +3,11 @@
     <threads>
         <id>1</id>
         <methods>
-            <duration>6</duration>
+            <duration>5</duration>
             <name>Main</name>
             <class>ConsoleApp.Program</class>
             <methods>
-                <duration>1</duration>
+                <duration>0</duration>
                 <name>OtherMethod</name>
                 <class>ConsoleApp.Program</class>
             </methods>
@@ -16,11 +16,11 @@
     <threads>
         <id>4</id>
         <methods>
-            <duration>2</duration>
+            <duration>1</duration>
             <name>Start</name>
             <class>ConsoleApp.Program</class>
             <methods>
-                <duration>2</duration>
+                <duration>1</duration>
                 <name>method</name>
                 <class>ConsoleApp.SimpleClass</class>
             </methods>

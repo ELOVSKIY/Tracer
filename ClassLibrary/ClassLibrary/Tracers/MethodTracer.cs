@@ -49,10 +49,14 @@ namespace Tracer.Tracers
             {
                 if (_innerMethodTracers.Count != 0)
                 {
-                    var innerMethodTracer = _innerMethodTracers.Pop();
+                    var innerMethodTracer = _innerMethodTracers.Peek();
                     innerMethodTracer.StopTrace();
-                    var innerMethodTraceResult = innerMethodTracer.GetTraceResult();
-                    _methodTraceResult.AddInnerMethodTraceResult(innerMethodTraceResult);
+                    if (!innerMethodTracer.IsActive())
+                    {
+                        _innerMethodTracers.Pop();
+                        var innerMethodTraceResult = innerMethodTracer.GetTraceResult();
+                        _methodTraceResult.AddInnerMethodTraceResult(innerMethodTraceResult);
+                    }
                 }
                 else
                 {

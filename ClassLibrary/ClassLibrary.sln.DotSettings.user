@@ -6,6 +6,19 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::FC410D1C-B681-4CB6-8BDA-35012E811057::.NETCoreApp,Version=v3.1::Tracer.Tests.Tracers.SimpleTracerTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::FC410D1C-B681-4CB6-8BDA-35012E811057::.NETCoreApp,Version=v3.1::Tracer.Tests.Tracers.MethodTracerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FC410D1C-B681-4CB6-8BDA-35012E811057::.NETCoreApp,Version=v3.1::Tracer.Tests.Results.MethodTraceResultTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FC410D1C-B681-4CB6-8BDA-35012E811057::.NETCoreApp,Version=v3.1::Tracer.Tests.Serializer.XmlSerializerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FC410D1C-B681-4CB6-8BDA-35012E811057::.NETCoreApp,Version=v3.1::Tracer.Tests.Serializer.JsonSerializerTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ce4def23_002Defdd_002D49cc_002Da4a1_002D5adf6119a1b8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MethodTraceResultTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::FC410D1C-B681-4CB6-8BDA-35012E811057::.NETCoreApp,Version=v3.1::Tracer.Tests.Results.MethodTraceResultTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FC410D1C-B681-4CB6-8BDA-35012E811057::.NETCoreApp,Version=v3.1::Tracer.Tests.Results.ThreadTraceResultTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FC410D1C-B681-4CB6-8BDA-35012E811057::.NETCoreApp,Version=v3.1::Tracer.Tests.Tracers.MethodTracerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FC410D1C-B681-4CB6-8BDA-35012E811057::.NETCoreApp,Version=v3.1::Tracer.Tests.Serializer.JsonSerializerTest.TestSerialize&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FC410D1C-B681-4CB6-8BDA-35012E811057::.NETCoreApp,Version=v3.1::Tracer.Tests.Serializer.JsonSerializerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FC410D1C-B681-4CB6-8BDA-35012E811057::.NETCoreApp,Version=v3.1::Tracer.Tests.Serializer.XmlSerializerTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d639fad0_002D80c9_002D490f_002D9689_002Dcfd762995800/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;Tracer.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

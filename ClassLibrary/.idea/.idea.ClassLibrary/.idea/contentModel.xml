@@ -66,6 +66,14 @@
             </e>
           </e>
         </e>
+        <e p="Results" t="Include">
+          <e p="MethodTraceResultTest.cs" t="Include" />
+          <e p="ThreadTraceResultTest.cs" t="Include" />
+        </e>
+        <e p="Serializer" t="Include">
+          <e p="JsonSerializerTest.cs" t="Include" />
+          <e p="XmlSerializerTest.cs" t="Include" />
+        </e>
         <e p="Tracer.Tests.csproj" t="IncludeRecursive" />
         <e p="Tracers" t="Include">
           <e p="MethodTracerTest.cs" t="Include" />

@@ -45,7 +45,7 @@ namespace Tracer.Tests.Tracers
             SetUp();
             _methodTracer.StartTrace(ClassName, MethodName);
             _methodTracer.StartTrace(InnerClassName, InnerMethodName);
-            _methodTracer.StartTrace(InnerClassName, InnerMethodName);
+            _methodTracer.StartTrace("InnerClassName", "InnerMethodName");
             _methodTracer.StopTrace();
             _methodTracer.StopTrace();
             _methodTracer.StopTrace();

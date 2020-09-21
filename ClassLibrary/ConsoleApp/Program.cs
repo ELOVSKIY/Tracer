@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Threading;
+using Tracer.Results;
 using Tracer.Serializer;
 using Tracer.Tracers;
 
@@ -19,8 +20,12 @@ namespace ConsoleApp
             tracer.StartTrace();
             OtherMethod();
             tracer.StopTrace();
+            while (thread.IsAlive)
+            {
+                
+            }
             var res = tracer.GetTraceResult();
-            var ser = new XmlTraceResultSerializer();
+            var ser = new JsonTraceResultSerializer();
             var str = ser.Serialize(res);
             Console.WriteLine(str);
         }

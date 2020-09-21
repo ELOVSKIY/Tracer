@@ -2,15 +2,15 @@
   "threads": [
     {
       "id": 1,
-      "duration": 7,
+      "duration": 5,
       "methods": [
         {
-          "duration": 7,
+          "duration": 5,
           "name": "Main",
           "class": "ConsoleApp.Program",
           "methods": [
             {
-              "duration": 1,
+              "duration": 0,
               "name": "OtherMethod",
               "class": "ConsoleApp.Program",
               "methods": []

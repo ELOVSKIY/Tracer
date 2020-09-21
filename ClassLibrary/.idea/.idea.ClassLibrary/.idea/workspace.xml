@@ -25,49 +25,43 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4dfbfe3-f838-4daa-84ab-4c8fe8573610" name="Default Changelist" comment="complete sdk">
-      <change afterPath="$PROJECT_DIR$/ClassLibrary/result.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp/SimpleClass.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tracer.Tests/Tracers/SimpleTracerTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tracer.Tests/Tracers/ThreadTracerTest.cs" afterDir="false" />
+    <list default="true" id="c4dfbfe3-f838-4daa-84ab-4c8fe8573610" name="Default Changelist" comment="add tests for tracers">
+      <change afterPath="$PROJECT_DIR$/ClassLibrary/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracer.Tests/Results/MethodTraceResultTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracer.Tests/Results/ThreadTraceResultTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracer.Tests/Serializer/JsonSerializerTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracer.Tests/Serializer/XmlSerializerTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Castle.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Moq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/System.Text.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/XSerializer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/Tracers/MethodTracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/Tracers/MethodTracer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/bin/Debug/netstandard2.0/Tracer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/obj/Debug/netstandard2.0/Tracer.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassLibrary/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary/result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary/result.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/Tracer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/Tracer.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/Tracer.Tests.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/Tracers/MethodTracerTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/Tracers/MethodTracerTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.Tests.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/bin/Debug/netcoreapp3.1/Tracer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Debug/netcoreapp3.1/Tracer.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/Tracer.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/Tracer.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracer.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tracer.Tests/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +78,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53D023D7-1051-415A-9681-84DA5CF05FF4/e2/0dca2869/XmlSerializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53D023D7-1051-415A-9681-84DA5CF05FF4/eb/e4623044/DateTimeHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClassLibrary/Serializer/TraceResultSerializer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClassLibrary/Results/IResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClassLibrary/Results/IResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53D023D7-1051-415A-9681-84DA5CF05FF4/89/319c3d0d/CustomSerializer`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/525CFFEC-000C-48BE-8596-AED533D6F868/33/d07b8da0/SerializeTool.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -99,15 +93,19 @@
         <option value="$PROJECT_DIR$/ClassLibrary/Results/TraceResult .cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Results/ThreadTraceResult.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp/SimpleClass.cs" />
-        <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
-        <option value="$PROJECT_DIR$/ClassLibrary/result.json" />
-        <option value="$PROJECT_DIR$/ClassLibrary/result.xml" />
-        <option value="$PROJECT_DIR$/ClassLibrary/Tracers/MethodTracer.cs" />
-        <option value="$PROJECT_DIR$/Tracer.Tests/Tracers/MethodTracerTest.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Tracers/ThreadTracer.cs" />
         <option value="$PROJECT_DIR$/Tracer.Tests/Tracers/ThreadTracerTest.cs" />
         <option value="$PROJECT_DIR$/ClassLibrary/Tracers/SimpleTracer.cs" />
         <option value="$PROJECT_DIR$/Tracer.Tests/Tracers/SimpleTracerTest.cs" />
+        <option value="$PROJECT_DIR$/Tracer.Tests/Tracers/MethodTracerTest.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/Tracers/MethodTracer.cs" />
+        <option value="$PROJECT_DIR$/Tracer.Tests/Results/MethodTraceResultTest.cs" />
+        <option value="$PROJECT_DIR$/Tracer.Tests/Results/ThreadTraceResultTest.cs" />
+        <option value="$PROJECT_DIR$/Tracer.Tests/Serializer/JsonSerializerTest.cs" />
+        <option value="$PROJECT_DIR$/Tracer.Tests/Serializer/XmlSerializerTest.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/result.xml" />
+        <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
+        <option value="$PROJECT_DIR$/ClassLibrary/result.json" />
       </list>
     </option>
   </component>
@@ -132,7 +130,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.ConsoleApp">
+  <component name="RunManager">
     <configuration name="ConsoleApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -165,7 +163,8 @@
       <workItem from="1600185008613" duration="4442000" />
       <workItem from="1600189616016" duration="3335000" />
       <workItem from="1600269270490" duration="2384000" />
-      <workItem from="1600350042104" duration="343000" />
+      <workItem from="1600350042104" duration="1889000" />
+      <workItem from="1600692987385" duration="1382000" />
     </task>
     <task id="LOCAL-00001" summary="fix bugs &amp; new logic">
       <created>1600105255787</created>
@@ -188,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600190436496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add tests for tracers">
+      <created>1600350598591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600350598591</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,41 +204,12 @@
     <option name="coveragePercentColumnWidth" value="150" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="269" />
+    <option name="symbolColumnWidth" value="414" />
     <coverage-tree-state>
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 51% 139/285" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 51% 139/285" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tracer.Tests 100% 0/43" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 51% 139/285" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tracer.Tests 100% 0/43" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tracer.Tests.Tracers 100% 0/43" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 51% 139/285" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tracer 55% 85/188" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 51% 139/285" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tracer 55% 85/188" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tracer 55% 85/188" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 51% 139/285" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tracer 55% 85/188" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tracer 55% 85/188" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Tracers 59% 56/136" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 83% 62/375" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
@@ -257,89 +234,90 @@
     <MESSAGE value="fix bugs &amp; new logic" />
     <MESSAGE value="add annotations" />
     <MESSAGE value="complete sdk" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete sdk" />
+    <MESSAGE value="add tests for tracers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests for tracers" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="457" key="GridCell.Tab.0.bottom" timestamp="1600273405175">
+    <state width="1398" height="457" key="GridCell.Tab.0.bottom" timestamp="1600694162364">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="457" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600273405175" />
-    <state width="1398" height="457" key="GridCell.Tab.0.center" timestamp="1600273405175">
+    <state width="1398" height="457" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600694162364" />
+    <state width="1398" height="457" key="GridCell.Tab.0.center" timestamp="1600694162364">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="457" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1600273405175" />
-    <state width="1398" height="457" key="GridCell.Tab.0.left" timestamp="1600273405175">
+    <state width="1398" height="457" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1600694162364" />
+    <state width="1398" height="457" key="GridCell.Tab.0.left" timestamp="1600694162362">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="457" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1600273405175" />
-    <state width="1398" height="457" key="GridCell.Tab.0.right" timestamp="1600273405175">
+    <state width="1398" height="457" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1600694162362" />
+    <state width="1398" height="457" key="GridCell.Tab.0.right" timestamp="1600694162364">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="457" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600273405175" />
-    <state width="1398" height="529" key="GridCell.Tab.1.bottom" timestamp="1600105154310">
+    <state width="1398" height="457" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600694162364" />
+    <state width="1398" height="529" key="GridCell.Tab.1.bottom" timestamp="1600351068399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600105154310" />
-    <state width="1398" height="529" key="GridCell.Tab.1.center" timestamp="1600105154310">
+    <state width="1398" height="529" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600351068399" />
+    <state width="1398" height="529" key="GridCell.Tab.1.center" timestamp="1600351068398">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1600105154310" />
-    <state width="1398" height="529" key="GridCell.Tab.1.left" timestamp="1600105154310">
+    <state width="1398" height="529" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1600351068398" />
+    <state width="1398" height="529" key="GridCell.Tab.1.left" timestamp="1600351068398">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1600105154310" />
-    <state width="1398" height="529" key="GridCell.Tab.1.right" timestamp="1600105154310">
+    <state width="1398" height="529" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1600351068398" />
+    <state width="1398" height="529" key="GridCell.Tab.1.right" timestamp="1600351068398">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1600105154310" />
-    <state width="1398" height="529" key="GridCell.Tab.2.bottom" timestamp="1600105154310">
+    <state width="1398" height="529" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1600351068398" />
+    <state width="1398" height="529" key="GridCell.Tab.2.bottom" timestamp="1600351068399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600105154310" />
-    <state width="1398" height="529" key="GridCell.Tab.2.center" timestamp="1600105154310">
+    <state width="1398" height="529" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600351068399" />
+    <state width="1398" height="529" key="GridCell.Tab.2.center" timestamp="1600351068399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1600105154310" />
-    <state width="1398" height="529" key="GridCell.Tab.2.left" timestamp="1600105154310">
+    <state width="1398" height="529" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1600351068399" />
+    <state width="1398" height="529" key="GridCell.Tab.2.left" timestamp="1600351068399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1600105154310" />
-    <state width="1398" height="529" key="GridCell.Tab.2.right" timestamp="1600105154310">
+    <state width="1398" height="529" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1600351068399" />
+    <state width="1398" height="529" key="GridCell.Tab.2.right" timestamp="1600351068399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1600105154310" />
-    <state width="1398" height="529" key="GridCell.Tab.3.bottom" timestamp="1600105154311">
+    <state width="1398" height="529" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1600351068399" />
+    <state width="1398" height="529" key="GridCell.Tab.3.bottom" timestamp="1600351068399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.3.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600105154311" />
-    <state width="1398" height="529" key="GridCell.Tab.3.center" timestamp="1600105154310">
+    <state width="1398" height="529" key="GridCell.Tab.3.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600351068399" />
+    <state width="1398" height="529" key="GridCell.Tab.3.center" timestamp="1600351068399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.3.center/0.0.1440.860@0.0.1440.860" timestamp="1600105154310" />
-    <state width="1398" height="529" key="GridCell.Tab.3.left" timestamp="1600105154310">
+    <state width="1398" height="529" key="GridCell.Tab.3.center/0.0.1440.860@0.0.1440.860" timestamp="1600351068399" />
+    <state width="1398" height="529" key="GridCell.Tab.3.left" timestamp="1600351068399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.3.left/0.0.1440.860@0.0.1440.860" timestamp="1600105154310" />
-    <state width="1398" height="529" key="GridCell.Tab.3.right" timestamp="1600105154310">
+    <state width="1398" height="529" key="GridCell.Tab.3.left/0.0.1440.860@0.0.1440.860" timestamp="1600351068399" />
+    <state width="1398" height="529" key="GridCell.Tab.3.right" timestamp="1600351068399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1600105154310" />
-    <state width="1398" height="529" key="GridCell.Tab.4.bottom" timestamp="1600105154311">
+    <state width="1398" height="529" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1600351068399" />
+    <state width="1398" height="529" key="GridCell.Tab.4.bottom" timestamp="1600351068400">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.4.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600105154311" />
-    <state width="1398" height="529" key="GridCell.Tab.4.center" timestamp="1600105154311">
+    <state width="1398" height="529" key="GridCell.Tab.4.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600351068400" />
+    <state width="1398" height="529" key="GridCell.Tab.4.center" timestamp="1600351068399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.4.center/0.0.1440.860@0.0.1440.860" timestamp="1600105154311" />
-    <state width="1398" height="529" key="GridCell.Tab.4.left" timestamp="1600105154311">
+    <state width="1398" height="529" key="GridCell.Tab.4.center/0.0.1440.860@0.0.1440.860" timestamp="1600351068399" />
+    <state width="1398" height="529" key="GridCell.Tab.4.left" timestamp="1600351068399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.4.left/0.0.1440.860@0.0.1440.860" timestamp="1600105154311" />
-    <state width="1398" height="529" key="GridCell.Tab.4.right" timestamp="1600105154311">
+    <state width="1398" height="529" key="GridCell.Tab.4.left/0.0.1440.860@0.0.1440.860" timestamp="1600351068399" />
+    <state width="1398" height="529" key="GridCell.Tab.4.right" timestamp="1600351068399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="529" key="GridCell.Tab.4.right/0.0.1440.860@0.0.1440.860" timestamp="1600105154311" />
+    <state width="1398" height="529" key="GridCell.Tab.4.right/0.0.1440.860@0.0.1440.860" timestamp="1600351068399" />
     <state x="552" y="132" key="RiderGenerateDialog" timestamp="1600269303187">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -360,26 +338,26 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="379" y="197" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1600188416481" />
-    <state x="407" y="205" width="672" height="678" key="search.everywhere.popup" timestamp="1600350473872">
+    <state x="410" y="208" width="672" height="678" key="search.everywhere.popup" timestamp="1600693427600">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="407" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600350473872" />
+    <state x="410" y="208" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600693427600" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Tracer.Tests/Tracers/SimpleTracerTest.cs</url>
-          <line>29</line>
-          <properties documentPath="C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\Tracer.Tests\Tracers\SimpleTracerTest.cs" initialLine="29">
+          <url>file://$PROJECT_DIR$/Tracer.Tests/Tracers/MethodTracerTest.cs</url>
+          <line>45</line>
+          <properties documentPath="C:\Users\Helicoptera\Desktop\СПП\Лаба1\ClassLibrary\Tracer.Tests\Tracers\MethodTracerTest.cs" initialLine="45">
             <startOffsets>
-              <option value="682" />
+              <option value="1241" />
             </startOffsets>
             <endOffsets>
-              <option value="731" />
+              <option value="1289" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
